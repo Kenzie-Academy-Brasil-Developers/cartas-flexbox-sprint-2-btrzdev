@@ -61,10 +61,10 @@
         /* display */
       
         border: 1px solid #CAD0D2;
-        border-radius: 4px;
-        overflow: hidden;
-        width: 710px;
-        display: flex;  
+        border-radius: 4px; 
+        box-sizing: border-box;
+        overflow:hidden; 
+       
         
        
     }
@@ -76,13 +76,16 @@
           border-radius: 0;
           flex-grow: 1;
           border-left: 1px solid #D7DBDD;
-          flex-basis: 0;    
+          flex-basis: 0; 
+             
           
     
         }
       
         .cardGroup__cardDescription {
+         height: 5rem;
          flex-grow:1;
+         
          
           /* flex-grow, flex-shrink, flex-basis */
         }
@@ -154,7 +157,7 @@ body {
     border: 1px solid #CAD0D2;
     border-radius: 4px;
     overflow: hidden;
-    width: 710px;
+    width: 708px;
     display: flex;  
     
    
